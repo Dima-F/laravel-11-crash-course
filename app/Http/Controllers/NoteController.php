@@ -12,15 +12,15 @@ class NoteController extends Controller
      */
     public function index()
     {
-        return 'index';
+        return view('note.index');
     }
 
     /**
-     * Show the form for creating a new resource.
+     * Show the form for creating a neSw resource.
      */
-    public function create()
+    public function ceate()
     {
-        return 'create';
+        return view('note.create');
     }
 
     /**
@@ -36,7 +36,7 @@ class NoteController extends Controller
      */
     public function show(Note $note)
     {
-        return 'show';
+        return view('note.show');
     }
 
     /**
@@ -44,7 +44,7 @@ class NoteController extends Controller
      */
     public function edit(Note $note)
     {
-        return 'edit';
+        return view('note.edit');
     }
 
     /**
